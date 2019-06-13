@@ -3,6 +3,16 @@ package com.revolut.codechallenge.artembogdan.service;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * POJO representing bank account. 
+ * It's used as a data transfer object and does not provide functionality.
+ * The entity is created by ({@link AccountService}) as a response for requested action.
+ * Setting any parameter to this POJO does not automatically trigger database changes. 
+ * Call {@link AccountService} instead  
+ * 
+ * @author bogdan
+ *
+ */
 public class AccountResponse {
 	private Integer accountNumber;
 	private String customerName;
